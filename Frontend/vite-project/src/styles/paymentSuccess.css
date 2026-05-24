@@ -1,0 +1,43 @@
+/* Success Page Container */
+.success-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    background-color: #f9fdf9;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Success Message */
+.success-message {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
+.success-reference{
+    font-size: 1rem;
+    color:#333;
+    background-color:#f1f1f1;
+    padding: 10px;
+    border-radius: 5px;
+}
+.success-card{
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 30px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-in-out;
+}
+.success-title{
+     font-size: 22px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+}
