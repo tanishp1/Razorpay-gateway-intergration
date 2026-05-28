@@ -12,7 +12,7 @@ mongoose.connect(process.env.MONGODB).then(()=>{
   console.log(e);
 })
 
-const paymentSchema = new mongoose.Schema({
+const paymentSchema =  new mongoose.Schema({
   razorpay_order_id:{
     type:String,
     required:true,
